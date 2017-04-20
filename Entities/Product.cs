@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProductID.DAL
+namespace Entities
 {
     using System;
     using System.Collections.Generic;

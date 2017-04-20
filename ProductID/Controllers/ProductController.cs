@@ -1,4 +1,5 @@
-﻿using ProductID.DAL;
+﻿
+using Entities;
 using ProductID.Service;
 using System.Collections.Generic;
 using System.Web.Mvc;

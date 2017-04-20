@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProductID.DAL
+namespace Entities
 {
     using System;
     using System.Data.Entity;
@@ -20,10 +20,7 @@ namespace ProductID.DAL
         {
         }
     
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
+        
     
         public virtual DbSet<Product> Product { get; set; }
     }

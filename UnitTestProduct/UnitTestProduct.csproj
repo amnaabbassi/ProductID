@@ -89,6 +89,10 @@
     <Compile Include="Controllers\ProductControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{6d898e6b-b2b6-41df-b316-e3b3715ba7f7}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProductID\ProductID.csproj">
       <Project>{d2a8a7bb-1bc8-4a45-8641-6aa03d88e42f}</Project>
       <Name>ProductID</Name>

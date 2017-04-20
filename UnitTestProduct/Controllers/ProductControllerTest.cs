@@ -1,11 +1,12 @@
 ﻿using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProductID.Controllers;
-using ProductID.DAL;
+
 using ProductID.Service;
 using Moq;
 using System.Collections.Generic;
 using System.Linq;
+using Entities;
 
 namespace UnitTestProduct
 {
