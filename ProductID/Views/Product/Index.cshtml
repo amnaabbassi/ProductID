@@ -1,0 +1,27 @@
+﻿@model List<ProductID.DAL.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+       
+        @foreach (var item in Model)
+        {
+            <dd>
+                @Html.DisplayFor(modelitem => item.Name)
+         
+                @Html.DisplayFor(modelitem => item.Price)
+            </dd>
+        }
+ 
+    </dl>
+</div>
+<p>
+   @Html.ActionLink("Back to List", "Index")
+</p>
