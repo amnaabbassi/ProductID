@@ -201,8 +201,6 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resolver\DemoUnitDependecyResolver.cs" />
-    <Compile Include="Service\IProductRepository.cs" />
-    <Compile Include="Service\ProductService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -259,6 +257,10 @@
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{6d898e6b-b2b6-41df-b316-e3b3715ba7f7}</Project>
       <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{b1d5f4cb-03ac-438f-8f0f-5b3bb13e4e0c}</Project>
+      <Name>Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

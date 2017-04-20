@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ProductID.Resolver
+namespace Service.Resolver
 {
     public class DemoUnitDependecyResolver : IDependencyResolver
     {

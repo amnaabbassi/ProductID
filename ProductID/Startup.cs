@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(ProductID.Startup))]
-namespace ProductID
+[assembly: OwinStartupAttribute(typeof(Service.Startup))]
+namespace Service
 {
     public partial class Startup
     {

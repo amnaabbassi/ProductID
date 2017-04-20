@@ -97,6 +97,10 @@
       <Project>{d2a8a7bb-1bc8-4a45-8641-6aa03d88e42f}</Project>
       <Name>ProductID</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

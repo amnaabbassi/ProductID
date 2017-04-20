@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using ProductID.Models;
+using Service.Models;
 
-namespace ProductID
+namespace Service
 {
     public partial class Startup
     {

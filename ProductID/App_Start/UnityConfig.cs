@@ -1,9 +1,9 @@
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using Unity.Mvc5;
-using ProductID.Service;
+using Service.Service;
 
-namespace ProductID
+namespace Service
 {
     public static class UnityConfig
     {

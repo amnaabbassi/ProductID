@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{9099B3A7-863
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{6D898E6B-B2B6-41DF-B316-E3B3715BA7F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{DC662C06-5243-4EC9-A418-BC66D4BC8E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,16 @@ Global
 		{6D898E6B-B2B6-41DF-B316-E3B3715BA7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D898E6B-B2B6-41DF-B316-E3B3715BA7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D898E6B-B2B6-41DF-B316-E3B3715BA7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D898E6B-B2B6-41DF-B316-E3B3715BA7F7} = {9099B3A7-863B-45F4-B650-443D3E186FF9}
+		{B1D5F4CB-03AC-438F-8F0F-5B3BB13E4E0C} = {DC662C06-5243-4EC9-A418-BC66D4BC8E18}
 	EndGlobalSection
 EndGlobal
