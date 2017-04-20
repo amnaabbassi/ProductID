@@ -8,7 +8,7 @@ namespace ProductID.Controllers
     public class ProductController : Controller
     {
         private IProductRepository _ProductService;
-     
+
         public ProductController(IProductRepository ProductService)
         {
             _ProductService = ProductService;
